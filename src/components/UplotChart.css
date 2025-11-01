@@ -1,0 +1,57 @@
+src/components/UplotChart.css
+
+/* Main chart container */
+.u-wrap {
+  --font-family: 'Helvetica', 'Arial', sans-serif;
+  --text-color: #d8d9da; /* Grafana's light gray text */
+  --grid-line-color: rgba(204, 204, 220, 0.07); /* Faint grid lines */
+  --series-stroke-color: #73bf69; /* Grafana's green */
+
+
+  border: 1px solid #202226; /* Grafana's dark border color */
+}
+
+.u-title {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Axis labels and ticks */
+.u-axis .u-tick,
+.u-axis .u-label {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 12px;
+}
+
+/* Grid lines */
+.u-grid .u-stroke {
+  stroke: var(--grid-line-color);
+}
+
+/* Legend styling */
+.u-legend .u-series th,
+.u-legend .u-series td {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+
+/* Tooltip on hover */
+.u-tooltip {
+  background-color: #111217;
+  border: 1px solid #202226;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 13px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.u-cursor-pt {
+  border-radius: 50%;
+}
