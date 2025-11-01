@@ -1,0 +1,39 @@
+.resizable-panel {
+  position: relative;
+  background-clip: padding-box; /* Ensures the background respects padding */
+}
+
+
+/* Main container for the handle */
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+  transform: rotate(45deg); /* Rotate the container for a diagonal effect */
+}
+
+/* Create the two diagonal lines */
+.react-resizable-handle::before,
+.react-resizable-handle::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 12px;
+  background-color: #56585D; /* A medium gray, adjust as needed */
+  border-radius: 2px;
+}
+
+.react-resizable-handle::before {
+  bottom: 3px;
+  right: 8px;
+}
+
+.react-resizable-handle::after {
+  bottom: 3px;
+  right: 3px;
+}
+
