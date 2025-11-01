@@ -52,8 +52,8 @@ You need to have Node.js (version 18.x or later) and a package manager like npm 
 
 1.  **Clone the repository:**
     ```sh
-    git clone <your-repository-url>
-    cd vHUB_Plot_UI
+    git clone <your-repository-url> Observability_UI
+    cd Observability_UI
     ```
 
 2.  **Install dependencies:**
