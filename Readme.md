@@ -29,6 +29,26 @@ graph TD
 - **Modern Tech Stack**: Built with React, TypeScript, Vite, Redux Toolkit, and Tailwind CSS for a fast and maintainable developer experience.
 - **Dark Theme**: A sleek, modern dark theme is applied across the application.
 
+## Screenshots
+
+Here's a glimpse of the Observability UI in action.
+
+### Dashboard View
+
+The main dashboard, showcasing multiple panels with different metrics.
+
+![Dashboard View](./images/dashboard.png)
+
+![Dashboard Tooltip View](./images/dashboard_tooltip.png)
+
+### Panel Edit View
+
+The detailed view for editing a single panel, including its queries and display settings.
+
+![Panel Edit View](./images/Observability_edit_panel_query_settings.png)
+
+![Panel Edit Tooltip View](./images/Observability_edit_panel_tooltip.png)
+
 ## Tech Stack
 
 - **Framework**: React
