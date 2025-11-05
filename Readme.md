@@ -40,6 +40,7 @@ The main dashboard, showcasing multiple panels with different metrics.
 ![Dashboard View](./images/dashboard.png)
 
 ![Dashboard Tooltip View](./images/dashboard_tooltip.png)
+Resizable panels in dashboard
 
 ### Panel Edit View
 
